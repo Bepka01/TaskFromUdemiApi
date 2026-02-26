@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | IP Address Tracker</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <div class="finder">
+      <h1 class="title">Address Tracker</h1>
+      <div class="search-bar">
+        <input class="search-bar__input" placeholder="Search" type="text" />
+        <button class="search-bar__btn"></button>
+      </div>
+      <div class="info">
+        <div class="info__block">
+          <div class="info__block-subtitle">IP Address</div>
+          <div class="info__block-title" id="ip"></div>
+        </div>
+        <div class="info__block">
+          <div class="info__block-subtitle">Location</div>
+          <div class="info__block-title" id="location"></div>
+        </div>
+        <div class="info__block">
+          <div class="info__block-subtitle">Timezone</div>
+          <div class="info__block-title">UTC <span id="timezone"></span></div>
+        </div>
+        <div class="info__block">
+          <div class="info__block-subtitle">ISP</div>
+          <div class="info__block-title" id="isp"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="map"></div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="./src/index.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+  </body>
+</html>

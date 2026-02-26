@@ -1,0 +1,28 @@
+{
+  "name": "taskfromudemiapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir=build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bepka01/TaskFromUdemiApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Bepka01/TaskFromUdemiApi/issues"
+  },
+  "homepage": "https://github.com/Bepka01/TaskFromUdemiApi#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "leaflet": "^1.9.4"
+  }
+}
